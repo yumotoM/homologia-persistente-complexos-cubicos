@@ -1,0 +1,14 @@
+# Estética do 3b1b (github.com/3b1b/videos, custom_config.yml): fundo preto e
+# saturação 1.5. A CMU Serif dele não está instalada; no lugar vai a Latin Modern,
+# a mesma família Computer Modern das fórmulas (registrada em estilo.py).
+camera:
+  resolution: (1920, 1080)
+  background_color: "#000000"
+  fps: 30
+file_writer:
+  saturation: 1.5
+tex:
+  template: "default"
+text:
+  font: "Latin Modern Roman"
+  alignment: "CENTER"

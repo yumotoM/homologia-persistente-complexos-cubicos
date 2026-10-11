@@ -1,0 +1,46 @@
+{
+  "flower": {
+    "fn": "Region1_DJF_Terra/Terra_CorrectedReflectance20080128_-61--40_10-24.jpeg",
+    "consenso": [
+      994.7654418945312,
+      132.66188049316406,
+      2076.613037109375,
+      1341.9002685546875
+    ],
+    "especialistas_no_padrao": 4,
+    "url_nasa": "https://wvs.earthdata.nasa.gov/api/v1/snapshot?REQUEST=GetSnapshot&TIME=2008-01-28&BBOX=10,-61,24,-40&CRS=EPSG:4326&LAYERS=MODIS_Terra_CorrectedReflectance_TrueColor&FORMAT=image/jpeg&WIDTH=2100&HEIGHT=1400"
+  },
+  "sugar": {
+    "fn": "Region1_MAM_Aqua/Aqua_CorrectedReflectance20070308_-61--40_10-24.jpeg",
+    "consenso": [
+      1227.0184326171875,
+      308.92047119140625,
+      2099.855712890625,
+      1381.0704345703125
+    ],
+    "especialistas_no_padrao": 4,
+    "url_nasa": "https://wvs.earthdata.nasa.gov/api/v1/snapshot?REQUEST=GetSnapshot&TIME=2007-03-08&BBOX=10,-61,24,-40&CRS=EPSG:4326&LAYERS=MODIS_Aqua_CorrectedReflectance_TrueColor&FORMAT=image/jpeg&WIDTH=2100&HEIGHT=1400"
+  },
+  "gravel": {
+    "fn": "Region1_DJF_Terra/Terra_CorrectedReflectance20151224_-61--40_10-24.jpeg",
+    "consenso": [
+      29.741477966308594,
+      35.20951843261719,
+      1529.08447265625,
+      847.7369384765625
+    ],
+    "especialistas_no_padrao": 4,
+    "url_nasa": "https://wvs.earthdata.nasa.gov/api/v1/snapshot?REQUEST=GetSnapshot&TIME=2015-12-24&BBOX=10,-61,24,-40&CRS=EPSG:4326&LAYERS=MODIS_Terra_CorrectedReflectance_TrueColor&FORMAT=image/jpeg&WIDTH=2100&HEIGHT=1400"
+  },
+  "fish": {
+    "fn": "Region1_DJF_Aqua/Aqua_CorrectedReflectance20100215_-61--40_10-24.jpeg",
+    "consenso": [
+      244.19337463378906,
+      600.0460815429688,
+      2093.76806640625,
+      1093.9139404296875
+    ],
+    "especialistas_no_padrao": 4,
+    "url_nasa": "https://wvs.earthdata.nasa.gov/api/v1/snapshot?REQUEST=GetSnapshot&TIME=2010-02-15&BBOX=10,-61,24,-40&CRS=EPSG:4326&LAYERS=MODIS_Aqua_CorrectedReflectance_TrueColor&FORMAT=image/jpeg&WIDTH=2100&HEIGHT=1400"
+  }
+}

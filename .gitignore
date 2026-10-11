@@ -1,0 +1,18 @@
+# Saídas do render e da exportação (refeitas pelo passo a passo do README)
+cenas/slides/
+cenas/videos/
+cenas/revisao/
+cenas/apresentacao.html
+cenas/apresentacao_assets/
+cenas/apresentacao_completa.html
+
+# Assets gerados por prepara_imagens.py e prepara_nuvens.py; as entradas ficam versionadas
+cenas/assets/cachorro_*
+cenas/assets/nuvens/cena_flower_tela.png
+cenas/assets/nuvens/padrao_*.png
+cenas/assets/nuvens/janela_*.png
+cenas/assets/nuvens/persistencia.json
+
+# Python e ferramentas
+__pycache__/
+.ruff_cache/

@@ -1,0 +1,13 @@
+# O mesmo padrão dos outros projetos: type hints obrigatórias (ANN), pathlib no lugar
+# de os.path (PTH) e nenhum import sem uso (F401).
+#
+#   ruff check .
+line-length = 88
+target-version = "py311"
+
+[lint]
+select = [
+    "PTH",
+    "ANN",
+    "F401",
+]

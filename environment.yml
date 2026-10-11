@@ -1,0 +1,30 @@
+# Ambiente da apresentação: renderizar os slides, conferir os números e exportar o HTML.
+#
+#   conda env create -f environment.yml
+#   conda activate complexos-cubicos
+#
+# O LaTeX não vem daqui: instale pelo sistema (ver README). As versões são as do
+# ambiente em que a apresentação foi renderizada e conferida.
+
+name: complexos-cubicos
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  # O manim-slides importa o Qt em qualquer comando, até no render e no convert.
+  # O PySide6 do conda-forge não traz o QtMultimedia: sem o qt6-multimedia, falta a libQt6Multimedia.so.6.
+  - pyside6=6.11.2
+  - qt6-multimedia=6.11.2
+  - ffmpeg=9.0.2
+  - pip
+  - pip:
+      - manimgl==1.7.2
+      # O extra [manimgl] fixa setuptools<80.10.2: o manimgl 1.7.2 ainda usa pkg_resources.
+      - manim-slides[manimgl]==5.7.0
+      - manimpango==0.7.0
+      - gudhi==3.13.0
+      - numpy==2.4.6
+      - scipy==1.17.1
+      - pillow==12.3.0
